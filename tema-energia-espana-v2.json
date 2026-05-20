@@ -1,0 +1,25 @@
+{
+  "name": "Energia España STEAM 2026",
+  "dataColors": [
+    "#1E5288",
+    "#3CB371",
+    "#E76F51",
+    "#7C7DAD",
+    "#F4C430",
+    "#7FCDCD",
+    "#A8D5BA",
+    "#8B4513",
+    "#8D99AE",
+    "#2B2D42"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2B2D42",
+  "tableAccent": "#1E5288",
+  "good": "#3CB371",
+  "neutral": "#F4C430",
+  "bad": "#E76F51",
+  "maximum": "#1E5288",
+  "center": "#8D99AE",
+  "minimum": "#E76F51",
+  "null": "#F4F4F6"
+}
