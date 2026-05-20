@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500">
+<rect x="0" y="0" width="1200" height="1500" fill="#FFFFFF" stroke="none" stroke-width="0" rx="0"/>
+<text x="600" y="50" font-family="Consolas, monospace" font-size="13" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="middle" letter-spacing="5">ARQUITECTURA TÉCNICA DEL PRODUCTO</text>
+<text x="600" y="82" font-family="Segoe UI, sans-serif" font-size="16" font-weight="normal" font-style="italic" fill="#5B6783" text-anchor="middle" >Pipeline reproducible: datos oficiales → analítica auditada → producto comercial</text>
+<line x1="400" y1="100" x2="800" y2="100" stroke="#1E5288" stroke-width="2"/>
+<rect x="60" y="140" width="200" height="230" fill="#0E3158" stroke="none" stroke-width="0" rx="0"/>
+<text x="80" y="190" font-family="Consolas, monospace" font-size="42" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" >01</text>
+<text x="80" y="230" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">FUENTES</text>
+<text x="80" y="252" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">DE DATOS</text>
+<line x1="80" y1="270" x2="150" y2="270" stroke="#7FCDCD" stroke-width="2"/>
+<text x="80" y="300" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >Origen</text>
+<text x="80" y="320" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >oficial público</text>
+<rect x="260" y="140" width="880" height="230" fill="#F4F4F6" stroke="none" stroke-width="0" rx="0"/>
+<rect x="260" y="140" width="880" height="4" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<rect x="290" y="170" width="193.33333333333334" height="170" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="290" y="170" width="4" height="170" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="308" y="200" font-family="Consolas, monospace" font-size="20" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >REData</text>
+<text x="308" y="225" font-family="Consolas, monospace" font-size="9" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">API PÚBLICA</text>
+<line x1="308" y1="238" x2="465.3333333333333" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+<text x="308" y="262" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Red Eléctrica de España</text>
+<text x="308" y="310" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >270.544</text>
+<text x="308" y="328" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >registros</text>
+<rect x="496.66666666666663" y="170" width="193.33333333333334" height="170" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="496.66666666666663" y="170" width="4" height="170" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="514.6666666666666" y="200" font-family="Consolas, monospace" font-size="20" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >ESIOS</text>
+<text x="514.6666666666666" y="225" font-family="Consolas, monospace" font-size="9" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">API AUTENTICADA</text>
+<line x1="514.6666666666666" y1="238" x2="672" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+<text x="514.6666666666666" y="262" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Red Eléctrica · ESIOS</text>
+<text x="514.6666666666666" y="310" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >43.434</text>
+<text x="514.6666666666666" y="328" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >registros</text>
+<rect x="703.3333333333333" y="170" width="193.33333333333334" height="170" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="703.3333333333333" y="170" width="4" height="170" fill="#3CB371" stroke="none" stroke-width="0" rx="0"/>
+<text x="721.3333333333333" y="200" font-family="Consolas, monospace" font-size="20" font-weight="bold" font-style="normal" fill="#3CB371" text-anchor="start" >OMIE</text>
+<text x="721.3333333333333" y="225" font-family="Consolas, monospace" font-size="9" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">WEB OFICIAL</text>
+<line x1="721.3333333333333" y1="238" x2="878.6666666666666" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+<text x="721.3333333333333" y="262" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Operador Mercado Ibérico</text>
+<text x="721.3333333333333" y="310" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#3CB371" text-anchor="start" >Contraste</text>
+<text x="721.3333333333333" y="328" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >registros</text>
+<rect x="910" y="170" width="193.33333333333334" height="170" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="910" y="170" width="4" height="170" fill="#7C7DAD" stroke="none" stroke-width="0" rx="0"/>
+<text x="928" y="200" font-family="Consolas, monospace" font-size="20" font-weight="bold" font-style="normal" fill="#7C7DAD" text-anchor="start" >CNMC</text>
+<text x="928" y="225" font-family="Consolas, monospace" font-size="9" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">INFORMES PDF</text>
+<line x1="928" y1="238" x2="1085.3333333333333" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+<text x="928" y="262" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Comisión Nac. Mercados</text>
+<text x="928" y="310" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#7C7DAD" text-anchor="start" >Trimestral</text>
+<text x="928" y="328" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >registros</text>
+
+    <line x1="600" y1="380" x2="600" y2="408" stroke="#1E5288" stroke-width="2"/>
+    <polygon points="592,408 608,408 600,420" fill="#1E5288"/>
+  
+<rect x="60" y="430" width="200" height="180" fill="#0E3158" stroke="none" stroke-width="0" rx="0"/>
+<text x="80" y="480" font-family="Consolas, monospace" font-size="42" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" >02</text>
+<text x="80" y="520" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">INGESTA Y</text>
+<text x="80" y="542" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">PROCESAMIENTO</text>
+<line x1="80" y1="560" x2="150" y2="560" stroke="#7FCDCD" stroke-width="2"/>
+<text x="80" y="588" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >Python · pandas</text>
+<rect x="260" y="430" width="880" height="180" fill="#F4F4F6" stroke="none" stroke-width="0" rx="0"/>
+<rect x="260" y="430" width="880" height="4" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="290" y="470" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="3">STACK TÉCNICO</text>
+<rect x="290" y="485" width="85" height="30" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="290" y="485" width="3" height="30" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="300" y="505" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Python 3.11</text>
+<rect x="385" y="485" width="85" height="30" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="385" y="485" width="3" height="30" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="395" y="505" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >pandas</text>
+<rect x="480" y="485" width="85" height="30" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="480" y="485" width="3" height="30" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="490" y="505" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >requests</text>
+<rect x="575" y="485" width="85" height="30" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="575" y="485" width="3" height="30" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="585" y="505" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >numpy</text>
+<rect x="670" y="485" width="85" height="30" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="670" y="485" width="3" height="30" fill="#E76F51" stroke="none" stroke-width="0" rx="0"/>
+<text x="680" y="505" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >jupyter</text>
+<text x="290" y="550" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="3">SEIS NOTEBOOKS DOCUMENTADOS</text>
+<rect x="290" y="565" width="120" height="28" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<text x="298" y="584" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >/00_descubrir</text>
+<rect x="420" y="565" width="120" height="28" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<text x="428" y="584" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >/01_descarga</text>
+<rect x="550" y="565" width="120" height="28" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<text x="558" y="584" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >/02_procesar</text>
+<rect x="680" y="565" width="120" height="28" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<text x="688" y="584" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >/03_validar</text>
+<rect x="810" y="565" width="120" height="28" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<text x="818" y="584" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >/04_agregar</text>
+<rect x="940" y="565" width="120" height="28" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<text x="948" y="584" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#E76F51" text-anchor="start" >/05_exportar</text>
+
+    <line x1="600" y1="620" x2="600" y2="648" stroke="#1E5288" stroke-width="2"/>
+    <polygon points="592,648 608,648 600,660" fill="#1E5288"/>
+  
+<rect x="60" y="670" width="200" height="230" fill="#0E3158" stroke="none" stroke-width="0" rx="0"/>
+<text x="80" y="720" font-family="Consolas, monospace" font-size="42" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" >03</text>
+<text x="80" y="760" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">CAPA</text>
+<text x="80" y="782" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">ANALÍTICA</text>
+<line x1="80" y1="800" x2="150" y2="800" stroke="#7FCDCD" stroke-width="2"/>
+<text x="80" y="828" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >Power BI Desktop</text>
+<text x="80" y="848" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >modelo + DAX</text>
+<rect x="260" y="670" width="880" height="230" fill="#F4F4F6" stroke="none" stroke-width="0" rx="0"/>
+<rect x="260" y="670" width="880" height="4" fill="#3CB371" stroke="none" stroke-width="0" rx="0"/>
+<rect x="290" y="695" width="259.1666666666667" height="185" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="290" y="695" width="4" height="185" fill="#3CB371" stroke="none" stroke-width="0" rx="0"/>
+<text x="308" y="720" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">MODELO DIMENSIONAL</text>
+<text x="308" y="770" font-family="Consolas, monospace" font-size="38" font-weight="bold" font-style="normal" fill="#3CB371" text-anchor="start" >13</text>
+<text x="308" y="790" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >tablas</text>
+<line x1="308" y1="805" x2="531.1666666666667" y2="805" stroke="#E5E7EB" stroke-width="1"/>
+<text x="308" y="825" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Calendario</text>
+<text x="308" y="837" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Generación</text>
+<text x="308" y="849" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Demanda</text>
+<text x="308" y="861" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Precios spot</text>
+<text x="308" y="873" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Emisiones CO₂</text>
+<text x="308" y="885" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Apagón ESIOS</text>
+<rect x="564.1666666666667" y="695" width="259.1666666666667" height="185" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="564.1666666666667" y="695" width="4" height="185" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="582.1666666666667" y="720" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">MEDIDAS AUDITADAS</text>
+<text x="582.1666666666667" y="770" font-family="Consolas, monospace" font-size="38" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >65</text>
+<text x="582.1666666666667" y="790" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >medidas DAX</text>
+<line x1="582.1666666666667" y1="805" x2="805.3333333333335" y2="805" stroke="#E5E7EB" stroke-width="1"/>
+<text x="582.1666666666667" y="825" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Generación · 12</text>
+<text x="582.1666666666667" y="837" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Demanda · 8</text>
+<text x="582.1666666666667" y="849" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Precios · 11</text>
+<text x="582.1666666666667" y="861" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Emisiones · 9</text>
+<text x="582.1666666666667" y="873" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Crisis · 15</text>
+<text x="582.1666666666667" y="885" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ Eventos · 10</text>
+<rect x="838.3333333333334" y="695" width="259.1666666666667" height="185" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="838.3333333333334" y="695" width="4" height="185" fill="#7C7DAD" stroke="none" stroke-width="0" rx="0"/>
+<text x="856.3333333333334" y="720" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">VALIDACIÓN CRUZADA</text>
+<text x="856.3333333333334" y="770" font-family="Consolas, monospace" font-size="38" font-weight="bold" font-style="normal" fill="#7C7DAD" text-anchor="start" >&lt;5%</text>
+<text x="856.3333333333334" y="790" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >desviación oficial</text>
+<line x1="856.3333333333334" y1="805" x2="1079.5" y2="805" stroke="#E5E7EB" stroke-width="1"/>
+<text x="856.3333333333334" y="825" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ REE 2020</text>
+<text x="856.3333333333334" y="837" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ REE 2021</text>
+<text x="856.3333333333334" y="849" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ REE 2022</text>
+<text x="856.3333333333334" y="861" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ REE 2023</text>
+<text x="856.3333333333334" y="873" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ REE 2024</text>
+<text x="856.3333333333334" y="885" font-family="Consolas, monospace" font-size="10" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >◦ OMIE precios</text>
+
+    <line x1="600" y1="910" x2="600" y2="938" stroke="#1E5288" stroke-width="2"/>
+    <polygon points="592,938 608,938 600,950" fill="#1E5288"/>
+  
+<rect x="60" y="960" width="200" height="320" fill="#0E3158" stroke="none" stroke-width="0" rx="0"/>
+<text x="80" y="1010" font-family="Consolas, monospace" font-size="42" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" >04</text>
+<text x="80" y="1050" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">PRODUCTO</text>
+<text x="80" y="1072" font-family="Consolas, monospace" font-size="14" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">COMERCIAL</text>
+<line x1="80" y1="1090" x2="150" y2="1090" stroke="#7FCDCD" stroke-width="2"/>
+<text x="80" y="1118" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >Dashboard +</text>
+<text x="80" y="1138" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >4 líneas de</text>
+<text x="80" y="1158" font-family="Segoe UI, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#E5E7EB" text-anchor="start" >monetización</text>
+<rect x="260" y="960" width="880" height="320" fill="#F4F4F6" stroke="none" stroke-width="0" rx="0"/>
+<rect x="260" y="960" width="880" height="4" fill="#F4C430" stroke="none" stroke-width="0" rx="0"/>
+<text x="290" y="995" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">DASHBOARD POWER BI · SEIS VISTAS OPERATIVAS</text>
+<rect x="290" y="1010" width="129.33333333333334" height="50" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="290" y="1010" width="129.33333333333334" height="3" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="300" y="1032" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >V01</text>
+<text x="300" y="1050" font-family="Segoe UI, sans-serif" font-size="9" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >Resumen ejecutivo</text>
+<rect x="426.33333333333337" y="1010" width="129.33333333333334" height="50" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="426.33333333333337" y="1010" width="129.33333333333334" height="3" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="436.33333333333337" y="1032" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >V02</text>
+<text x="436.33333333333337" y="1050" font-family="Segoe UI, sans-serif" font-size="9" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >Mix energético</text>
+<rect x="562.6666666666667" y="1010" width="129.33333333333334" height="50" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="562.6666666666667" y="1010" width="129.33333333333334" height="3" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="572.6666666666667" y="1032" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >V03</text>
+<text x="572.6666666666667" y="1050" font-family="Segoe UI, sans-serif" font-size="9" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >Demanda y estabilidad</text>
+<rect x="699" y="1010" width="129.33333333333334" height="50" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="699" y="1010" width="129.33333333333334" height="3" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="709" y="1032" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >V04</text>
+<text x="709" y="1050" font-family="Segoe UI, sans-serif" font-size="9" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >Día del apagón</text>
+<rect x="835.3333333333334" y="1010" width="129.33333333333334" height="50" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="835.3333333333334" y="1010" width="129.33333333333334" height="3" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="845.3333333333334" y="1032" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >V05</text>
+<text x="845.3333333333334" y="1050" font-family="Segoe UI, sans-serif" font-size="9" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >Anomalías y crisis</text>
+<rect x="971.6666666666667" y="1010" width="129.33333333333334" height="50" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="971.6666666666667" y="1010" width="129.33333333333334" height="3" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="981.6666666666667" y="1032" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >V06</text>
+<text x="981.6666666666667" y="1050" font-family="Segoe UI, sans-serif" font-size="9" font-weight="normal" font-style="normal" fill="#2B2D42" text-anchor="start" >Anatomía técnica ESIOS</text>
+<text x="290" y="1100" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#5B6783" text-anchor="start" letter-spacing="2">CUATRO LÍNEAS DE MONETIZACIÓN</text>
+<rect x="290" y="1115" width="195" height="100" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="290" y="1115" width="4" height="100" fill="#1E5288" stroke="none" stroke-width="0" rx="0"/>
+<text x="308" y="1137" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" letter-spacing="2">P01</text>
+<text x="308" y="1159" font-family="Segoe UI, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Dashboard SaaS</text>
+<line x1="308" y1="1171" x2="467" y2="1171" stroke="#E5E7EB" stroke-width="1"/>
+<text x="308" y="1193" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#1E5288" text-anchor="start" >79 – 1.490</text>
+<text x="308" y="1208" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >€ / mes</text>
+<rect x="495" y="1115" width="195" height="100" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="495" y="1115" width="4" height="100" fill="#3CB371" stroke="none" stroke-width="0" rx="0"/>
+<text x="513" y="1137" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#3CB371" text-anchor="start" letter-spacing="2">P02</text>
+<text x="513" y="1159" font-family="Segoe UI, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >API DaaS</text>
+<line x1="513" y1="1171" x2="672" y2="1171" stroke="#E5E7EB" stroke-width="1"/>
+<text x="513" y="1193" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#3CB371" text-anchor="start" >149 – 799</text>
+<text x="513" y="1208" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >€ / mes</text>
+<rect x="700" y="1115" width="195" height="100" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="700" y="1115" width="4" height="100" fill="#F4C430" stroke="none" stroke-width="0" rx="0"/>
+<text x="718" y="1137" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#F4C430" text-anchor="start" letter-spacing="2">P03</text>
+<text x="718" y="1159" font-family="Segoe UI, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Reports &amp; Insights</text>
+<line x1="718" y1="1171" x2="877" y2="1171" stroke="#E5E7EB" stroke-width="1"/>
+<text x="718" y="1193" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#F4C430" text-anchor="start" >2.5K – 12K</text>
+<text x="718" y="1208" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >€ / informe</text>
+<rect x="905" y="1115" width="195" height="100" fill="#FFFFFF" stroke="none" stroke-width="0" rx="2"/>
+<rect x="905" y="1115" width="4" height="100" fill="#7C7DAD" stroke="none" stroke-width="0" rx="0"/>
+<text x="923" y="1137" font-family="Consolas, monospace" font-size="10" font-weight="bold" font-style="normal" fill="#7C7DAD" text-anchor="start" letter-spacing="2">P04</text>
+<text x="923" y="1159" font-family="Segoe UI, sans-serif" font-size="13" font-weight="bold" font-style="normal" fill="#2B2D42" text-anchor="start" >Strategic Consulting</text>
+<line x1="923" y1="1171" x2="1082" y2="1171" stroke="#E5E7EB" stroke-width="1"/>
+<text x="923" y="1193" font-family="Consolas, monospace" font-size="16" font-weight="bold" font-style="normal" fill="#7C7DAD" text-anchor="start" >750</text>
+<text x="923" y="1208" font-family="Consolas, monospace" font-size="9" font-weight="normal" font-style="normal" fill="#5B6783" text-anchor="start" >€ / día</text>
+<rect x="290" y="1235" width="800" height="30" fill="#0E3158" stroke="none" stroke-width="0" rx="2"/>
+<text x="310" y="1255" font-family="Consolas, monospace" font-size="11" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="start" letter-spacing="3">▸  CLIENTES FINALES</text>
+<text x="510" y="1255" font-family="Segoe UI, sans-serif" font-size="11" font-weight="normal" font-style="normal" fill="#E5E7EB" text-anchor="start" >Industria · Comercializadoras · Retail · Fondos · Datacenter</text>
+<line x1="60" y1="1430" x2="1140" y2="1430" stroke="#E5E7EB" stroke-width="1"/>
+<text x="60" y="1450" font-family="Segoe UI, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#5B6783" text-anchor="start" >Fuentes oficiales · Trazabilidad documentada · Validación cruzada &lt;5%</text>
+<text x="1140" y="1450" font-family="Segoe UI, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#5B6783" text-anchor="end" >Redalytica Intelligence · Memoria final</text>
+</svg>
